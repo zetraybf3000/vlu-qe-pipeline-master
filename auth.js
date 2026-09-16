@@ -1,3 +1,4 @@
+/*lab02*/
 function login(username, password) {
   if (!username || username.trim() === "") {
     throw new Error("Username không được để trống");
